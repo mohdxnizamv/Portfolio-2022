@@ -5,6 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ipfs/dist/index.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Portfolio</title>
   </head>
 
@@ -274,7 +277,6 @@
 
     <script src="src/js/connect.js"></script>
     <script src="src/js/balance.js"></script>
-
     <script>
       var checkbox = document.querySelector("input[name=theme]");
 
@@ -284,7 +286,7 @@
           document.documentElement.setAttribute("data-theme", "night");
         } else {
           trans();
-          document.documentElement.setAttribute("data-theme", "winter");
+          document.documentElement.setAttribute("data-theme", "cupcake");
         }
       });
 
