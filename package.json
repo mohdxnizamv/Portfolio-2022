@@ -1,0 +1,33 @@
+{
+  "name": "portfolio-tailwaind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.7",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8"
+  },
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/css/input.css -o ./src/css/style.css --watch",
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohdxnizamv/Portfolio-Tailwaind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohdxnizamv/Portfolio-Tailwaind/issues"
+  },
+  "homepage": "https://github.com/mohdxnizamv/Portfolio-Tailwaind#readme",
+  "dependencies": {
+    "daisyui": "^2.31.0"
+  }
+}
