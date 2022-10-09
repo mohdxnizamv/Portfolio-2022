@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 
 /*
 ! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
@@ -3396,6 +3398,10 @@ body[dir="rtl"] .checkbox:checked,
   padding-right: 0.75rem;
 }
 
+.font-Josefin{
+  font-family: Josefin Sans, sans-serif;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -3426,16 +3432,16 @@ body[dir="rtl"] .checkbox:checked,
   line-height: 2.5rem;
 }
 
+.font-semibold{
+  font-weight: 600;
+}
+
 .font-bold{
   font-weight: 700;
 }
 
 .font-medium{
   font-weight: 500;
-}
-
-.font-semibold{
-  font-weight: 600;
 }
 
 .uppercase{
@@ -3523,7 +3529,7 @@ body[dir="rtl"] .checkbox:checked,
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Alata", sans-serif;
 }
 
 .hover\:border-primary:hover{
