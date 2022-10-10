@@ -1669,6 +1669,34 @@ html{
   --tw-backdrop-sepia:  ;
 }
 
+.container{
+  width: 100%;
+}
+
+@media (min-width: 480px){
+  .container{
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 976px){
+  .container{
+    max-width: 976px;
+  }
+}
+
+@media (min-width: 1440px){
+  .container{
+    max-width: 1440px;
+  }
+}
+
 .avatar.placeholder > div{
   display: flex;
   align-items: center;
@@ -1942,15 +1970,6 @@ html{
   display: grid;
   place-items: start;
   gap: 0.5rem;
-}
-
-.footer-center{
-  place-items: center;
-  text-align: center;
-}
-
-.footer-center > *{
-  place-items: center;
 }
 
 @media (min-width: 48rem){
@@ -3118,6 +3137,14 @@ body[dir="rtl"] .checkbox:checked,
   margin-right: 0.75rem;
 }
 
+.mt-16{
+  margin-top: 4rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -3387,6 +3414,10 @@ body[dir="rtl"] .checkbox:checked,
 
 .pr-3{
   padding-right: 0.75rem;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .font-Josefin{
