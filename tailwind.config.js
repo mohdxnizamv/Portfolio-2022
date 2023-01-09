@@ -12,6 +12,8 @@ module.exports = {
       fontFamily: {
         Alata: ["Alata", "sans-serif"],
         Josefin: ["Josefin Sans", "sans-serif"],
+        Vampiro: ["Vampiro One", "cursive"],
+        SpecialElite: ["Special Elite", "cursive"],
       },
       colors: {
         softYellow: "#FFDE00",
@@ -25,4 +27,4 @@ module.exports = {
     },
   },
   plugins: [require("daisyui")],
-};
+}
