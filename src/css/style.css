@@ -3042,6 +3042,7 @@ body[dir="rtl"] .checkbox:checked,
 }
 
 .butang{
+  font-size: 0.7rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   border-radius: 9999px;
   border-width: 1px;
@@ -3053,9 +3054,7 @@ body[dir="rtl"] .checkbox:checked,
   padding-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 700;
+  font-weight: 600;
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -3437,12 +3436,12 @@ body[dir="rtl"] .checkbox:checked,
   padding-right: 0.75rem;
 }
 
-.font-Vampiro{
-  font-family: Vampiro One, cursive;
-}
-
 .font-SpecialElite{
   font-family: Special Elite, cursive;
+}
+
+.font-Vampiro{
+  font-family: Vampiro One, cursive;
 }
 
 .text-xs{
