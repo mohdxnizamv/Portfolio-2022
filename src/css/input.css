@@ -10,10 +10,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "SpecialElite", cursive;
-}
-
 @layer components {
   .butang {
     @apply transform rounded-full border border-gray-300 bg-base-100 px-4 py-2 text-sm font-bold shadow-sm hover:scale-105 focus:outline-none focus:ring-2;
